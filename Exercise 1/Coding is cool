@@ -1,0 +1,8 @@
+#Using variable word one is make as the 1st word
+word_one= "Coding"
+#Using variable word two is make as the 2nd word
+word_two= "is"
+#Using variable word three is make as the 3rd word
+word_three="cool"
+#Using print we are going to combined and display all this words as a one proper sentence
+print(word_one+" "+word_two+" "+word_three)
