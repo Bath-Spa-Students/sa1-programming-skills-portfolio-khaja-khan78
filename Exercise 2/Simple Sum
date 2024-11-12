@@ -1,0 +1,8 @@
+#Declare a variable and initialize it with value 8
+Value_1=8
+#Declare a second variable and initialize it with the integer value
+Value_2=10
+#Declare a third variable that stores the sum of first two numbers
+Total_sum_of_value=Value_1+Value_2
+#Print the value of the sum to the console
+print(Total_sum_of_value)
