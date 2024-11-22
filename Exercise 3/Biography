@@ -1,0 +1,21 @@
+# Ask the user for their information
+name = input("What's your full name=")
+hometown = input("Where are you from=")
+# Prompt for age and ensure it's a valid number
+while True:
+    age_input = input("How old are you=")
+    # Check if the input is a valid number
+    if age_input.isdigit():
+        age = int(age_input)
+        break
+    else:
+        print("Not a proper age number.")
+# Store the information in a dictionary
+user_bio = {"Name": name,
+    "Hometown": hometown,
+    "Age": age}
+# Display the biography
+print("\nHere's your biography:")
+print(f"Name: {user_bio['Name']}")
+print(f"Hometown: {user_bio['Hometown']}")
+print(f"Age: {user_bio['Age']}")
